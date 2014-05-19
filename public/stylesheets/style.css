@@ -16,6 +16,28 @@ ul {
 li {
   display: block;
   margin: 5px auto;
-  padding: 15px;
+  padding: 15px 0px;
   background-color: #f2f2f2;
+}
+#new-item-show {
+  color: #999;
+  background-color: #eecead;
+  border-style: none;
+  width: 270px;
+  padding: 15px;
+  font-size: 14px;
+  margin: 0px auto;
+}
+#new-item-show:hover {
+  cursor: pointer;
+  background-color: #ddbd9c;
+  color: #777;
+}
+form {
+  width: 270px;
+  margin: 0px auto;
+  padding: 15px;
+  background-color: #000;
+  height: 200px;
+  display: none;
 }

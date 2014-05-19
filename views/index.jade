@@ -1,7 +1,13 @@
 extends layout
 
+block scripts
+  script(src='/javascripts/index-ui.js')
+
+block control
+  div#new-item-show [New Item]
+  form#new-item
+
 block content
-  h1= title
   ul
     for item in items
       li= item.title
